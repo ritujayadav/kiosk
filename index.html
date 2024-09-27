@@ -367,39 +367,51 @@
             }
         }
     </style>
-    
-    <script>
-        const apiKey = 'fc7ef2feb61847c6943d7fba21845949'; // Replace with your NewsAPI key
-        const newsUrl = `https://newsapi.org/v2/top-headlines?country=in&category=medicine&apiKey=${apiKey}`;
-    
-        async function fetchNews() {
-            try {
-                const response = await fetch(newsUrl);
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                const data = await response.json();
-                return data.articles.map(article => article.title);
-            } catch (error) {
-                console.error('Error fetching news:', error);
-                return ["Failed to load news. Please try again later."];
-            }
+     <script>
+        // Static list of news articles
+        const newsItems = [
+            "Study shows a significant increase in telemedicine usage post-pandemic.",
+            "New vaccine trials show promise against emerging variants.",
+            "Researchers discover a new biomarker for early-stage cancer.",
+            "AI algorithms outperform doctors in diagnosing certain diseases.",
+            "Recent studies highlight the benefits of meditation for mental health.",
+            "Health experts recommend regular screenings for preventive care.",
+            "New treatments for chronic pain show positive results.",
+            "Global efforts to combat antibiotic resistance intensify.",
+            "Nutritionists emphasize the importance of a balanced diet.",
+            "Telehealth services expand access to mental health care.",
+            "Advancements in gene therapy show potential for rare diseases.",
+            "COVID-19 variants raise concerns among health officials.",
+            "Researchers find link between sleep quality and heart health.",
+            "Study indicates the effectiveness of exercise in preventing diabetes.",
+            "Medical professionals advocate for improved healthcare access.",
+            "Breakthroughs in stem cell research may transform treatment options.",
+            "Health authorities urge vaccination to prevent outbreaks.",
+            "New guidelines for cholesterol management released.",
+            "Exploration of gut microbiome's impact on overall health continues.",
+            "Emerging technologies in healthcare improve patient outcomes.",
+            "Environmental factors linked to increased asthma cases.",
+            "Advancements in wearable health technology gaining traction.",
+            "Research supports the benefits of regular health check-ups.",
+            "Public health campaigns promote healthy lifestyle choices.",
+            "Studies show a decline in smoking rates worldwide.",
+            "Innovations in surgical techniques enhance recovery times."
+        ];
+
+        let currentIndex = 0;
+
+        function updateNewsTicker() {
+            const newsElement = document.getElementById('news-content');
+            newsElement.textContent = newsItems[currentIndex];
+            currentIndex = (currentIndex + 1) % newsItems.length;
         }
-    
-        (async function initializeNewsTicker() {
-            const newsItems = await fetchNews();
-            let currentIndex = 0;
-    
-            function updateNewsTicker() {
-                const newsElement = document.getElementById('news-content');
-                newsElement.textContent = newsItems[currentIndex];
-                currentIndex = (currentIndex + 1) % newsItems.length;
-            }
-    
-            // Update news every 5 seconds
-            setInterval(updateNewsTicker, 5000);
-            updateNewsTicker(); // Initial call to display the first news item
-        })();
+
+        // Update news every 5 seconds
+        setInterval(updateNewsTicker, 5000);
+        updateNewsTicker(); // Initial call to display the first news item
+
+        // Button to manually show the next news item
+        document.getElementById('next-button').addEventListener('click', updateNewsTicker);
     </script>
     <br>
     <br>
