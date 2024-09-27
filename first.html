@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Cure Connect - First Aid Videos">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="Extra/css/icofont/icofont.min.css" rel="stylesheet">
+
+    <title>Cure Connect - First Aid</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Extra/css/style.css">
+    <link rel="stylesheet" href="Extra/css/fontawesome.css">
+    <link rel="stylesheet" href="Extra/css/templatemo-space-dynamic.css">
+    <link rel="stylesheet" href="Extra/css/owl.css">
+    <link rel="icon" type="png" href="Extra/images/logo.png">
+
+    <style>
+        /* Removed fixed positioning for header */
+        .header-area {
+            background-color: #fff;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Removed body padding for fixed header */
+        body {
+            padding-top: 0;
+        }
+
+        /* Navigation bar */
+        .main-nav ul.nav {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .main-nav ul.nav li {
+            list-style: none;
+        }
+
+        .main-nav ul.nav li a {
+            color: black;
+            font-weight: 600;
+        }
+
+        .main-nav ul.nav li a:hover {
+            color: #f33f3f;
+        }
+
+        .main-red-button a {
+            background-color: #f33f3f;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .main-red-button a:hover {
+            background-color: #d32f2f;
+            color: white;
+        }
+
+        /* Video section styling */
+        .video-section {
+            padding: 50px 0;
+        }
+
+        /* Box around video */
+        .video__box {
+            border: 2px solid #ddd;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+            cursor: pointer;
+        }
+
+        .video__box:hover {
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Highlight class when video is clicked */
+        .highlight {
+            border-color: #f33f3f;
+            box-shadow: 0px 4px 15px rgba(255, 0, 0, 0.5);
+        }
+
+        .video__player--head {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .video__embed-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+        }
+
+        .video__embed-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        /* Footer styling */
+        footer {
+            padding: 20px;
+            background-color: #f33f3f;
+            color: white;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Grid */
+        @media (min-width: 768px) {
+            .video-col {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top"></div>
+    <!-- Non-Sticky Header -->
+    <header class="header-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- Logo -->
+                        <a href="index.html" class="logo">
+                            <h4>Cure<span>Connect</span></h4>
+                        </a>
+                        <!-- Menu -->
+                        <ul class="nav">
+                            <li><a href="index.html#top" class="active">Home</a></li>
+                            <li><a href="lobby.html">Video Call</a></li>
+                            <li><a href="https://esanjeevani.mohfw.gov.in/#/">eSanjeevani</a></li>
+                            <li><a href="index.html#first-aid">First-Aid</a></li>
+                            <li><a href="index.html#about">About Us</a></li>
+                            <li><a href="index.html#services">Our Models</a></li>
+                            <li><a href="index.html#contact">Message Us</a></li>
+                            <li>
+                                <div class="main-red-button"><a href="#contact">Contact Now</a></div>
+                            </li>
+                        </ul>
+                        
+                        <script>
+                            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                                anchor.addEventListener('click', function (e) {
+                                    e.preventDefault();
+                                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                                        behavior: 'smooth'
+                                    });
+                                });
+                            });
+                        </script>
+                        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+<br>
+<br>
+<br>
+    <!-- Video Section -->
+    <section id="first-aid" class="video-section">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+            <!-- Two columns for videos -->
+            <div class="row video-col">
+                <!-- CPR Video -->
+                <div class="col-md-6">
+                    <div class="video__box" onclick="highlightVideo(this)">
+                        <h1 class="video__player--head">CPR (Cardiopulmonary Resuscitation) Video</h1>
+                        <div class="video__embed-container">
+                            <iframe src="https://drive.google.com/file/d/1Go70YMeMBrZ8z61FoMIYyoU8_UAaUgNt/preview" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Choking First Aid Video -->
+                <div class="col-md-6">
+                    <div class="video__box" onclick="highlightVideo(this)">
+                        <h1 class="video__player--head">Choking First Aid</h1>
+                        <div class="video__embed-container">
+                            <iframe src="https://drive.google.com/file/d/1hFSihlOrJIlfncXU25f27y_BheY8NY0b/preview" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Another row of videos -->
+            <div class="row video-col">
+                <!-- Burn Care Video -->
+                <div class="col-md-6">
+                    <div class="video__box" onclick="highlightVideo(this)">
+                        <h1 class="video__player--head">Burn Care</h1>
+                        <div class="video__embed-container">
+                            <iframe src="https://drive.google.com/file/d/1ejg5O9n73JczWxlVbGxZ06WF-re4mHd2/preview" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bleeding Emergency Action Video -->
+                <div class="col-md-6">
+                    <div class="video__box" onclick="highlightVideo(this)">
+                        <h1 class="video__player--head">Bleeding Emergency Action</h1>
+                        <div class="video__embed-container">
+                            <iframe src="https://drive.google.com/file/d/18tKv8hY0qqLafCKCfvImP-N7LV3eb3_h/preview" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Cure Connect. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript to highlight video on click -->
+    <script>
+        function highlightVideo(clickedBox) {
+            // Remove highlight from all video boxes
+            var videoBoxes = document.querySelectorAll('.video__box');
+            videoBoxes.forEach(function(box) {
+                box.classList.remove('highlight');
+            });
+
+            // Add highlight to clicked box
+            clickedBox.classList.add('highlight');
+        }
+    </script>
+
+</body>
+
+</html>
