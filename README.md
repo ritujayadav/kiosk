@@ -21,12 +21,15 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
   - **Backend**: Node.js, Express.js  
   - **Search Engine**: Firebase, Algolia Search  
   - **Real-time Updates**: Firebase for real-time notifications
+    
+### ![WhatsApp Image 2025-01-07 at 10 39 31_55bf1ba0](https://github.com/user-attachments/assets/827c6320-88c2-4912-9cf0-e53280d8458e)
 
 ---
 
-### ![WhatsApp Image 2025-01-07 at 10 39 31_55bf1ba0](https://github.com/user-attachments/assets/827c6320-88c2-4912-9cf0-e53280d8458e)
+
 
 ### ![WhatsApp Image 2025-01-07 at 10 40 30_f68413fc](https://github.com/user-attachments/assets/6a8909ca-e818-412c-ae02-5ef62ebb2ba5)
+### ![WhatsApp Image 2025-01-07 at 10 41 52_6fa9c9b5](https://github.com/user-attachments/assets/1bd384dc-df8f-48c4-af3f-90b090250aac)
 
 
 <p align="center">Figure 1. Search and Book Doctor Appointments</p>
@@ -46,10 +49,8 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 - **Technologies Used**:  
   - **3D Video Rendering**: Unity 3D  
   - **Web Integration**: HTML5, CSS3, JavaScript for embedding 3D content
-
----
-
-### ![WhatsApp Image 2025-01-07 at 10 41 52_6fa9c9b5](https://github.com/user-attachments/assets/1bd384dc-df8f-48c4-af3f-90b090250aac)
+    
+### ![WhatsApp Image 2025-01-07 at 10 43 20_8af3c235](https://github.com/user-attachments/assets/07148dc1-85bb-4f2a-9869-2aaa69999359)
 
 <p align="center">Figure 2. 3D First-Aid Guidance</p>
 
@@ -70,7 +71,7 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 
 ---
 
-###![WhatsApp Image 2025-01-07 at 10 42 37_a264e790](https://github.com/user-attachments/assets/7041119f-7cf9-4d9e-bd96-e5a5e62b5576)
+### ![WhatsApp Image 2025-01-07 at 10 39 59_0d689ae5](https://github.com/user-attachments/assets/91fe9746-0677-4916-b8d9-fd968d9157a8)
  
 <p align="center">Figure 3. Disease Prediction Interface</p>
 
