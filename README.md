@@ -29,25 +29,16 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 ---
 
 <p align="center">
-  ![WhatsApp Image 2025-01-07 at 10 41 52_6fa9c9b5](https://github.com/user-attachments/assets/1bd384dc-df8f-48c4-af3f-90b090250aac)
-</p>
-<p align="center">
-  ### Figure 1. Connect to Doctors
+![WhatsApp Image 2025-01-07 at 10 41 52_6fa9c9b5](https://github.com/user-attachments/assets/3bb740f6-ff69-4f0b-a6ac-cee7acefc54b)
+    
+![WhatsApp Image 2025-01-07 at 11 07 51_07283910](https://github.com/user-attachments/assets/38cd0e45-ddb8-45d2-a508-2046870db44d)
+
+<p align="center">Figure 2. Search for Available Doctors</p>
+![WhatsApp Image 2025-01-07 at 10 40 30_f68413fc](https://github.com/user-attachments/assets/59bd41c9-0a87-4571-9bc4-c7094e8ce9d4)
+
 </p>
 
-<p align="center">
-  ![WhatsApp Image 2025-01-07 at 11 07 51_07283910](https://github.com/user-attachments/assets/76095dcd-2079-4107-b239-32ffae641d0e)
-</p>
-<p align="center">
-  ### Figure 2. Search for Doctors and Book Appointment
-</p>
-
-<p align="center">
-  ![WhatsApp Image 2025-01-07 at 10 40 30_f68413fc](https://github.com/user-attachments/assets/6a8909ca-e818-412c-ae02-5ef62ebb2ba5)
-</p>
-
-
-<p align="center">Figure 1. Search and Book Doctor Appointments</p>
+<p align="center">Figure 3. Book Doctor Appointments</p>
 
 
 ---
@@ -67,7 +58,7 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
     
 ### ![WhatsApp Image 2025-01-07 at 10 43 20_8af3c235](https://github.com/user-attachments/assets/07148dc1-85bb-4f2a-9869-2aaa69999359)
 
-<p align="center">Figure 2. 3D First-Aid Guidance</p>
+<p align="center">Figure 4. 3D First-Aid Guidance</p>
 
 ---
 
@@ -88,7 +79,7 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 
 ### ![WhatsApp Image 2025-01-07 at 10 39 59_0d689ae5](https://github.com/user-attachments/assets/91fe9746-0677-4916-b8d9-fd968d9157a8)
  
-<p align="center">Figure 3. Disease Prediction Interface</p>
+<p align="center">Figure 5. Disease Prediction Interface</p>
 
 ---
 
@@ -105,7 +96,7 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 
 ### ![WhatsApp Image 2025-01-07 at 10 45 41_2fdd4520](https://github.com/user-attachments/assets/dba8bcb0-a8ad-43bd-975d-42c4acfeb1dd)
 
-<p align="center">Figure 4. Real-Time Health News in Any Language</p>
+<p align="center">Figure 6. Real-Time Health News in Any Language</p>
 
 ---
 
@@ -136,7 +127,7 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 
  ###![WhatsApp Image 2025-01-07 at 10 46 45_c0ecf4f0](https://github.com/user-attachments/assets/227d4233-5684-43f6-a459-2be86e90d6cc)
 
-<p align="center">Figure 5. Real-Time Translation</p>
+<p align="center">Figure 7. Real-Time Translation</p>
 
 ---
 
