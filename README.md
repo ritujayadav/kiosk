@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b6a38eaf-e28b-4136-9f8d-7d91c74bfb1d)# AI-Assisted Telemedicine Kiosk
+# AI-Assisted Telemedicine Kiosk
 
 ## Overview
 
@@ -7,11 +7,37 @@ The **AI-Assisted Telemedicine Kiosk** is an innovative solution designed to bri
 ---
 ### **Figure 1: Interface**
 
-![Disease Prediction](![image](https://github.com/user-attachments/assets/4f813ff9-2056-49db-b421-6c0c01f835f9)
-)  
+![Disease Prediction](![image](https://github.com/user-attachments/assets/4f813ff9-2056-49db-b421-6c0c01f835f9))
+
 *Caption: The disease prediction feature analyzes user-input symptoms and suggests possible diagnoses.*
 ## Features and Technical Details
 
+
+
+
+### 1. **Connect to Doctors**
+
+- **Feature Description**: This feature enables users to search for doctors and connect with them via video calls. It ensures that rural populations have access to consultations with healthcare professionals without having to travel long distances.
+
+- **Working**:  
+  - **Doctor Search**: Users can search for doctors by specialization using a simple interface.
+  - **Video Consultation**: Once a doctor is found, users can connect for a real-time consultation via integrated video call functionality (WebRTC, Twilio).
+  - **Offline Mode**: Even in areas with limited connectivity, users can browse a directory of available doctors.
+
+- **Technologies Used**:
+  - **Video Calling**: WebRTC, Twilio API
+  - **Search Engine**: Firebase, Algolia Search
+
+---
+
+### **Figure 1: Connect to Doctors**
+
+![Connect to Doctors](![image](https://github.com/user-attachments/assets/4f070552-2bac-4438-8982-c38b0eb1e3df)
+)  
+*Caption: Search and initiate video consultations with doctors through the kiosk.*
+
+
+---
 ### 1. **Disease Prediction**
 
 - **Feature Description**: The disease prediction feature allows users to input their symptoms, and the kiosk, using AI and machine learning algorithms, predicts possible diseases based on the symptoms provided.
@@ -35,27 +61,6 @@ The **AI-Assisted Telemedicine Kiosk** is an innovative solution designed to bri
 
 ---
 
-### 2. **Connect to Doctors**
-
-- **Feature Description**: This feature enables users to search for doctors and connect with them via video calls. It ensures that rural populations have access to consultations with healthcare professionals without having to travel long distances.
-
-- **Working**:  
-  - **Doctor Search**: Users can search for doctors by specialization using a simple interface.
-  - **Video Consultation**: Once a doctor is found, users can connect for a real-time consultation via integrated video call functionality (WebRTC, Twilio).
-  - **Offline Mode**: Even in areas with limited connectivity, users can browse a directory of available doctors.
-
-- **Technologies Used**:
-  - **Video Calling**: WebRTC, Twilio API
-  - **Search Engine**: Firebase, Algolia Search
-
----
-
-### **Figure 2: Connect to Doctors**
-
-![Connect to Doctors](image_link_here)  
-*Caption: Search and initiate video consultations with doctors through the kiosk.*
-
----
 
 ### 3. **3D First-Aid Guidance**
 
