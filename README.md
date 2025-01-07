@@ -3,6 +3,10 @@
 ## Overview
 
 The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution designed to bridge the gap between remote healthcare access and rural populations. This kiosk offers medical support with features like real-time consultations with doctors, 3D first-aid guidance, disease prediction, real-time news updates, multilingual support, and a voice-based chatbot for better user interaction.
+    
+### ![WhatsApp Image 2025-01-07 at 10 39 31_55bf1ba0](https://github.com/user-attachments/assets/827c6320-88c2-4912-9cf0-e53280d8458e)
+
+<p align="center">Figure 1. Interface</p>
 
 ---
 
@@ -21,16 +25,16 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
   - **Backend**: Node.js, Express.js  
   - **Search Engine**: Firebase, Algolia Search  
   - **Real-time Updates**: Firebase for real-time notifications
-    
-### ![WhatsApp Image 2025-01-07 at 10 39 31_55bf1ba0](https://github.com/user-attachments/assets/827c6320-88c2-4912-9cf0-e53280d8458e)
 
 ---
 
-
+<p align="center">
+ 
 
 ### ![WhatsApp Image 2025-01-07 at 10 40 30_f68413fc](https://github.com/user-attachments/assets/6a8909ca-e818-412c-ae02-5ef62ebb2ba5)
-### ![WhatsApp Image 2025-01-07 at 10 41 52_6fa9c9b5](https://github.com/user-attachments/assets/1bd384dc-df8f-48c4-af3f-90b090250aac)
 
+### ![WhatsApp Image 2025-01-07 at 10 41 52_6fa9c9b5](https://github.com/user-attachments/assets/1bd384dc-df8f-48c4-af3f-90b090250aac)
+</p>
 
 <p align="center">Figure 1. Search and Book Doctor Appointments</p>
 
@@ -88,9 +92,9 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 
 ---
 
-### ![WhatsApp Image 2025-01-07 at 10 43 20_8af3c235](https://github.com/user-attachments/assets/f9b904e0-fcef-4a8d-8dbb-6c7e95202c36)
+### ![WhatsApp Image 2025-01-07 at 10 45 41_2fdd4520](https://github.com/user-attachments/assets/dba8bcb0-a8ad-43bd-975d-42c4acfeb1dd)
 
-<p align="center">Figure 4. Real-Time Health News</p>
+<p align="center">Figure 4. Real-Time Health News in Any Language</p>
 
 ---
 
@@ -118,8 +122,8 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
   - **Translation**: All medical content is displayed in the selected language for user ease.
  
 ---
-### ![WhatsApp Image 2025-01-07 at 10 45 41_2fdd4520](https://github.com/user-attachments/assets/dba8bcb0-a8ad-43bd-975d-42c4acfeb1dd)
- ![WhatsApp Image 2025-01-07 at 10 46 45_c0ecf4f0](https://github.com/user-attachments/assets/227d4233-5684-43f6-a459-2be86e90d6cc)
+
+ ###![WhatsApp Image 2025-01-07 at 10 46 45_c0ecf4f0](https://github.com/user-attachments/assets/227d4233-5684-43f6-a459-2be86e90d6cc)
 
 <p align="center">Figure 5. Real-Time Translation</p>
 
