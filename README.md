@@ -4,104 +4,131 @@
 
 ### Introduction
 
-The **AI-Assisted Telemedicine Kiosk** project aims to provide healthcare assistance to rural areas where medical services are limited. It helps bridge the gap caused by geographical, technological, and language barriers. This project focuses on offering offline medical support, multilingual communication, first-aid guidance, and disease prediction through AI.
+The **AI-Assisted Telemedicine Kiosk** aims to provide healthcare assistance to people in rural areas where medical services are hard to access. The kiosk offers offline medical support, multilingual communication, first-aid guidance through 3D videos, and disease prediction using AI. Additionally, it enables users to connect with doctors remotely for consultations.
 
-By making healthcare services accessible to everyone, regardless of location, the kiosk brings essential support to people who need it most.
-
----
-
-## Features
-
-- **Offline Accessibility**: Medical support even without the internet.
-- **Multilingual Support**: Communicates in various languages, breaking down language barriers.
-- **Visual Guidance**: Provides 3D first-aid tutorials for emergency situations.
-- **AI Health Prediction**: Offers predictions for possible diseases based on symptoms.
-- **User-Friendly Interface**: Simple design for easy access, even for those with limited technology experience.
+By leveraging technology, we make healthcare more accessible, addressing challenges like language barriers, remote locations, and limited internet access.
 
 ---
 
-### **Figure 1: Visual Guidance for First Aid**
+## Features and Technical Details
 
-![First-Aid Visual Guidance](image_link_here)  
-*Caption: 3D visual guidance for first aid in emergency situations.*
+### 1. **Disease Prediction**
 
----
+- **Feature Description**: Users can input their symptoms, and the kiosk uses AI to predict possible diseases based on the information provided.
 
-## Working Prototype
-
-The working prototype of the kiosk is developed to provide the following services:
-
-- **Virtual Consultation**: Users can connect with doctors remotely.
-- **Symptom Check**: By entering their symptoms, users receive predictions about possible diseases.
-- **First-Aid Guidance**: 3D visual tutorials help users provide immediate first aid in emergencies.
-
----
-
-### **Figure 2: Multilingual Support**
-
-![Multilingual Support](image_link_here)  
-*Caption: Multilingual interface to communicate with users in their preferred language.*
+- **Technical Approach**:  
+  The disease prediction is powered by a machine learning model that analyzes input symptoms and compares them to a vast database of medical conditions.
+  
+- **Technologies Used**:  
+  - **Machine Learning**: Scikit-learn, TensorFlow  
+  - **Algorithms**: Decision Trees, Random Forest Classifier, Support Vector Machines (SVM)
+  - **Dataset**: Medical dataset containing symptoms and diseases for training the model.
 
 ---
 
-## Industry Overview
-
-The **AI-Assisted Telemedicine Kiosk** falls under the **Telehealth** and **Healthcare Technology** categories. It aims to deliver healthcare services to rural populations through technology, improving access to doctors, first-aid assistance, and diagnostic tools.
-
----
-
-### **Figure 3: AI Health Prediction Based on Symptoms**
+### **Figure 3: Disease Prediction Interface**
 
 ![Disease Prediction](image_link_here)  
-*Caption: AI-powered symptom checker for disease predictions based on user input.*
+*Caption: The disease prediction feature uses AI to provide possible diagnoses based on user symptoms.*
 
 ---
 
-## Target Audience
+### 2. **Connect to Doctors**
 
-- **Rural Residents**: Individuals in remote areas lacking healthcare access.
-- **Elderly Individuals**: People needing regular health consultations and first-aid guidance.
-- **Busy Professionals**: Those with limited time to visit a doctor in person.
-- **Families**: Families seeking emergency medical help, especially in remote regions.
-
----
-
-## Market Strategy
-
-- **Workshops and Community Education**: We will educate rural communities on how to use the kiosk and promote healthy living practices.
-- **Health Camps**: Partnering with NGOs to host free medical camps and demonstrate the kiosk’s capabilities.
-- **Partnerships with Healthcare Providers**: Collaborating with healthcare companies to integrate consultations and services.
+- **Feature Description**: The kiosk allows users to connect to doctors for remote consultations, helping those in rural areas who do not have easy access to healthcare professionals.
+  
+- **Technical Approach**:  
+  Users can search for doctors and connect to them via video calls for consultations. The system uses an online doctor directory and integrates video conferencing capabilities.
+  
+- **Technologies Used**:  
+  - **Video Calling**: WebRTC, Twilio API  
+  - **Doctor Search**: Firebase, Algolia Search
 
 ---
 
-### **Figure 4: Use Case Diagram of Telemedicine Platform**
+### **Figure 4: Connect to Doctors**
 
-![Use Case Diagram](image_link_here)  
-*Caption: A use case diagram showing a typical interaction scenario with the telemedicine platform.*
-
----
-
-## Business Model
-
-- **Revenue Streams**:  
-  - Partnerships with pharmaceutical companies for in-app promotions.  
-  - Collaboration with healthcare providers to earn commissions on consultations.
-- **Strategic Goals**:  
-  - Expand the kiosk’s reach by focusing on rural areas with limited healthcare access.
-  - Build a network of healthcare providers to ensure seamless medical consultations.
+![Connect to Doctors](image_link_here)  
+*Caption: Users can search for doctors and initiate video consultations through the kiosk interface.*
 
 ---
 
-### **Figure 5: Prototype Kiosk Interface**
+### 3. **3D First-Aid Guidance**
 
-![Kiosk Interface](image_link_here)  
-*Caption: The user interface of the AI-assisted telemedicine kiosk.*
+- **Feature Description**: The kiosk provides 3D video tutorials for first-aid procedures, helping users with emergency situations by visually guiding them step by step.
+
+- **Technical Approach**:  
+  The 3D videos are integrated into the kiosk interface. When the user selects an emergency, they are shown detailed 3D animations explaining how to provide first aid.
+  
+- **Technologies Used**:  
+  - **3D Video Rendering**: Unity 3D  
+  - **Video Integration**: HTML5, CSS, JavaScript
 
 ---
 
-## Conclusion
+### **Figure 5: 3D First-Aid Video**
 
-The **AI-Assisted Telemedicine Kiosk** is designed to revolutionize healthcare accessibility in rural regions. By leveraging AI and technology, it ensures that healthcare reaches those who need it the most, overcoming challenges such as distance, language, and internet access. 
+![3D First Aid Video](image_link_here)  
+*Caption: 3D video demonstrating emergency first-aid procedures.*
+
+---
+
+### 4. **Offline Accessibility**
+
+- **Feature Description**: The kiosk can provide medical support even in areas without internet connectivity. It stores essential medical information locally, enabling offline access to guidance.
+  
+- **Technical Approach**:  
+  The application is designed to function without the internet, relying on a local database for medical content and guidance.
+
+---
+
+### **Figure 6: Offline Medical Assistance**
+
+![Offline Assistance](image_link_here)  
+*Caption: Offline medical guidance available even without internet access.*
+
+---
+
+### 5. **Multilingual Support**
+
+- **Feature Description**: The kiosk supports multiple languages, ensuring that people from different linguistic backgrounds can use it effectively.
+  
+- **Technical Approach**:  
+  We integrated a multilingual API to detect the user’s preferred language and translate the interface and guidance into that language.
+  
+- **Technologies Used**:  
+  - **Language Detection**: Google Cloud Translation API  
+  - **Translation**: Custom-built language models for seamless communication.
+
+---
+
+### **Figure 7: Multilingual Interface**
+
+![Multilingual Support](image_link_here)  
+*Caption: The kiosk's interface supports multiple languages for user accessibility.*
+
+---
+
+## Frameworks and Libraries Used
+
+- **Backend**:  
+  - Node.js, Express.js for API handling and server-side logic.
+  - MongoDB for local data storage (medical content, user data, etc.).
+  
+- **Frontend**:  
+  - React.js for building the interactive user interface.
+  - HTML5, CSS3 for styling and embedding multimedia content.
+  
+- **Machine Learning**:  
+  - TensorFlow for disease prediction model training and inference.
+  - Scikit-learn for additional machine learning algorithms.
+
+- **3D Content**:  
+  - Unity 3D for rendering first-aid videos.
+  - Three.js for 3D rendering on web-based interfaces.
+
+- **Communication**:  
+  - WebRTC and Twilio API for real-time video consultations.
 
 ---
 
@@ -135,9 +162,9 @@ The **AI-Assisted Telemedicine Kiosk** is designed to revolutionize healthcare a
 
 ---
 
-## Contributions
+## Contributing
 
-If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. Contributions are welcome!
+Feel free to contribute to this project by forking the repository and submitting a pull request. Any improvements or bug fixes are welcome!
 
 ---
 
