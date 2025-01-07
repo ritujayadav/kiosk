@@ -24,8 +24,13 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 
 ---
 
-### ![Connect to Doctors](image_link_here)  
+### ![Connect to Doctors](![WhatsApp Image 2025-01-07 at 10 39 31_55bf1ba0](https://github.com/user-attachments/assets/827c6320-88c2-4912-9cf0-e53280d8458e)
+)  
+### ![Search the Best Doctors](![WhatsApp Image 2025-01-07 at 10 40 30_f68413fc](https://github.com/user-attachments/assets/6a8909ca-e818-412c-ae02-5ef62ebb2ba5)
+)
+)  
 <p align="center">Figure 1. Search and Book Doctor Appointments</p>
+
 
 ---
 
@@ -44,7 +49,8 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 
 ---
 
-### ![3D First-Aid Video](image_link_here)  
+### ![3D First-Aid Video](![WhatsApp Image 2025-01-07 at 10 41 52_6fa9c9b5](https://github.com/user-attachments/assets/1bd384dc-df8f-48c4-af3f-90b090250aac)
+)  
 <p align="center">Figure 2. 3D First-Aid Guidance</p>
 
 ---
@@ -64,7 +70,8 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 
 ---
 
-### ![Disease Prediction](image_link_here)  
+### ![Disease Prediction](![WhatsApp Image 2025-01-07 at 10 42 37_a264e790](https://github.com/user-attachments/assets/7041119f-7cf9-4d9e-bd96-e5a5e62b5576)
+)  
 <p align="center">Figure 3. Disease Prediction Interface</p>
 
 ---
@@ -76,15 +83,12 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 
 - **Working**:  
   - **News Integration**: The system fetches news from reliable health sources and displays real-time updates on the screen.
-  - **User Notifications**: Important alerts are pushed to users to keep them informed about critical health events.
-
-- **Technologies Used**:  
-  - **API Integration**: News APIs for fetching health news  
-  - **Real-time Updates**: WebSockets for live news updates
+  - **User Notifications**: Important alerts are pushed to users to keep them informed about critical health events
 
 ---
 
-### ![Real-Time News Updates](image_link_here)  
+### ![Real-Time News Updates](![WhatsApp Image 2025-01-07 at 10 43 20_8af3c235](https://github.com/user-attachments/assets/f9b904e0-fcef-4a8d-8dbb-6c7e95202c36)
+)  
 <p align="center">Figure 4. Real-Time Health News</p>
 
 ---
@@ -98,16 +102,10 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
   - **Voice Interaction**: Users speak to the chatbot, which responds in real time, providing assistance on health-related topics.
   - **AI Assistance**: The system uses Natural Language Processing (NLP) to understand and respond to health inquiries.
 
-- **Technologies Used**:  
-  - **Voice Recognition**: Google Speech API, Web Speech API  
-  - **AI Chatbot**: Dialogflow, Rasa NLU for chatbot intelligence
 
 ---
 
-### ![Real-Time Voice Chatbot](image_link_here)  
-<p align="center">Figure 5. Real-Time Voice Chatbot</p>
 
----
 
 ### 6. **Multilingual Support**
 
@@ -117,9 +115,12 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 - **Working**:  
   - **Language Detection**: The kiosk automatically detects and switches to the user’s preferred language.
   - **Translation**: All medical content is displayed in the selected language for user ease.
+ 
+---
+### ![Real-Time Translation](![WhatsApp Image 2025-01-07 at 10 45 41_2fdd4520](https://github.com/user-attachments/assets/dba8bcb0-a8ad-43bd-975d-42c4acfeb1dd)
+)  ![WhatsApp Image 2025-01-07 at 10 46 45_c0ecf4f0](https://github.com/user-attachments/assets/227d4233-5684-43f6-a459-2be86e90d6cc)
 
-- **Technologies Used**:  
-  - **Google Cloud Translation API** for language detection and real-time translation
+<p align="center">Figure 5. Real-Time Translation</p>
 
 ---
 
