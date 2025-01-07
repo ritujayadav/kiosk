@@ -29,11 +29,14 @@ The **AI-Assisted Telemedicine Kiosk** is a comprehensive healthcare solution de
 ---
 
 <p align="center">
- 
+### ![WhatsApp Image 2025-01-07 at 10 41 52_6fa9c9b5](https://github.com/user-attachments/assets/1bd384dc-df8f-48c4-af3f-90b090250aac) </p>
+<p align="center">
+###![WhatsApp Image 2025-01-07 at 11 07 51_07283910](https://github.com/user-attachments/assets/76095dcd-2079-4107-b239-32ffae641d0e)</p>
 
-### ![WhatsApp Image 2025-01-07 at 10 40 30_f68413fc](https://github.com/user-attachments/assets/6a8909ca-e818-412c-ae02-5ef62ebb2ba5)
+<p align="center">
+### ![WhatsApp Image 2025-01-07 at 10 40 30_f68413fc](https://github.com/user-attachments/assets/6a8909ca-e818-412c-ae02-5ef62ebb2ba5)</p>
 
-### ![WhatsApp Image 2025-01-07 at 10 41 52_6fa9c9b5](https://github.com/user-attachments/assets/1bd384dc-df8f-48c4-af3f-90b090250aac)
+
 </p>
 
 <p align="center">Figure 1. Search and Book Doctor Appointments</p>
